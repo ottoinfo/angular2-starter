@@ -1,0 +1,69 @@
+{
+  "name": "angular2-starter",
+  "version": "1.0.0",
+  "description": "Angular2 Starter",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --display-error-details",
+    "clean": "rm -rf ./dist",
+    "dev": "webpack-dev-server --display-error-details --progress --colors --inline --hot",
+    "postinstall": "typings install",
+    "test": "mocha --compilers js:babel-register",
+    "tsc": "tsc --rootDir src --outDir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ottoinfo/angular2-starter.git"
+  },
+  "keywords": [
+    "Angular2",
+    "Webpack"
+  ],
+  "author": "Matthew Otto <matt@ottoinfo.com> (http://ottoinfo.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ottoinfo/angular2-starter/issues"
+  },
+  "homepage": "https://github.com/ottoinfo/angular2-starter#readme",
+  "dependencies": {
+    "@angular/common": "^2.0.0",
+    "@angular/compiler": "^2.0.0",
+    "@angular/core": "^2.0.0",
+    "@angular/forms": "^2.0.0",
+    "@angular/http": "^2.0.0",
+    "@angular/platform-browser": "^2.0.0",
+    "@angular/platform-browser-dynamic": "^2.0.0",
+    "@angular/router": "^3.0.0",
+    "@angular/upgrade": "^2.0.0",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-beta.12",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "clean-webpack-plugin": "^0.1.10",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file": "^0.2.2",
+    "file-loader": "^0.9.0",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.0.5",
+    "handlebars-loader": "^1.4.0",
+    "html-webpack-plugin": "^2.22.0",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.10.0",
+    "postcss-loader": "^0.13.0",
+    "purifycss-webpack-plugin": "^2.0.3",
+    "sass-loader": "^4.0.2",
+    "sass-resources-loader": "^1.1.0",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3",
+    "typings": "^1.3.3",
+    "webpack": "^1.13.2",
+    "webpack-merge": "^0.14.1",
+    "webpack-validator": "^2.2.7"
+  }
+}

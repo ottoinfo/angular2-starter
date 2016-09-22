@@ -1,0 +1,10 @@
+{
+  "html": {
+    "author": "Matthew Otto",
+    "description": "Angular2 Setup",
+    "favicon": "public/images/favicon.jpg",
+    "filename": "index.html",
+    "template": "public/template.hbs",
+    "title": "Admin"
+  }
+}

@@ -1,0 +1,40 @@
+// Colors
+$aqua: rgba(133, 222, 227, 1);
+$blue: rgba(58, 96, 159, 1);
+$burgundy: rgba(173, 20, 87, 1);
+$forest: rgba(163, 198, 135, 1);
+$orange: rgba(253, 125, 2, 1);
+
+// Shades - Dark to Light
+$shade0: rgba(0, 0, 0, 1); // Black
+$shade1: rgba(14, 15, 16, 1);
+$shade2: rgba(24, 25, 26, 1);
+$shade3: rgba(43, 44, 45, 1);
+$shade4: rgba(50, 51, 52, 1);
+$shade5: rgba(63, 64, 65, 1);
+$shade6: rgba(75, 76, 77, 1);
+$shade7: rgba(106, 107, 108, 1);
+$shade8: rgba(134, 135, 136, 1);
+$shade9: rgba(181, 182, 183, 1);
+$shade10: rgba(201, 202, 203, 1);
+$shade11: rgba(241, 241, 241, 1);
+$shade12: rgba(255, 255, 255, 1); // White
+
+// Border
+$border: 1px solid $shade10;
+
+// Radius
+$radius: 5px;
+
+// Header
+$header-height: 60px;
+$header-background: $shade2;
+$header-color: $shade11;
+
+// Footer
+$footer-height: 30px;
+$footer-background: $shade11;
+$footer-color: $shade2;
+
+// Content
+$content-height: calc(100vh - (90px)); // $header-height + $footer-height & Borders

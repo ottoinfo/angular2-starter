@@ -1,0 +1,26 @@
+// CSS Tricks Wiki - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+@mixin flex_layout($display: flex, $justify: flex-start, $direction: row) {
+  display: $display;
+  justify-content: $justify;
+  flex-direction: $direction;
+  // align-items: flex-start | flex-end | center | baseline | stretch;
+  // align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}
+
+@mixin flex_item($flow: row, $justify: space-between, $margin: auto) {
+  flex-flow: $flow;
+  justify-content: $justify;
+  margin: $margin;
+ // Extra Variables 
+ // order: <integer> 
+ // flex-grow: <number>;
+ // flex-shrink: <number>
+ // flex-basis: <length> | auto;
+ // align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
+
+@mixin flex_items($flow: row, $justify: space-between, $margin: auto 5px) {
+  > * {
+    @include flex_item($flow, $justify, $margin);
+  }
+}
